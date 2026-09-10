@@ -5,7 +5,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pages="clr-namespace:UI1.Pages"
-    Title="תרגיל גיל">
+    Title="תרגילי גיל">
 
     <TabBar>
 
@@ -16,6 +16,10 @@
         <ShellContent
             Title="תרגיל 2"
             ContentTemplate="{DataTemplate pages:SecondPage}" />
+
+        <ShellContent
+            Title="תרגיל 3"
+            ContentTemplate="{DataTemplate pages:ThirdPage}" />
 
     </TabBar>
 
